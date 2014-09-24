@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css" media="screen">
+    .side-menu {
+        width: 180px;
+        height: 500px;
+        background-color: #f2f2f2;
+    }
+    .side-menu a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .side-menu-ls li:hover {
+        cursor: pointer;
+    }
+    .side-menu ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .side-menu-ls .header {
+        text-decoration: none;
+        color: #303132;
+        background-color: #f2f2f2;
+        display: block;
+        font-weight: bold;
+    }
+    .side-menu-ls li li a {
+        color: #000;
+    }
+    .side-menu-ls .opened {
+        background-color: #303132;
+        color: #fff;
+    }
+    .side-menu-ls li.subactive {
+        background-color: #595b5d;
+        color: #fff;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="side-menu">
+        <ul class="side-menu-ls">
+            <li><a href="#">功能展示></a>
+                <ul>
+                    <li><a href="###" title="">>托管运营</a>
+                    </li>
+                    <li><a href="###" title="">>定制开发</a>
+                    </li>
+                    <li><a href="###" title="">>定制活动</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">特色服务></a>
+                <ul>
+                    <li><a href="###" title="">>托管运营</a>
+                    </li>
+                    <li><a href="###" title="">>定制开发</a>
+                    </li>
+                    <li><a href="###" title="">>定制活动</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/hoveraccordion.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('.side-menu-ls').hoverAccordion({
+            subactive: "subactive",
+            activateItem: 1,
+            onClickOnly:true
+        });
+    });
+    </script>
+</body>
+
+</html>
