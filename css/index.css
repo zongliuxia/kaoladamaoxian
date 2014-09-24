@@ -101,7 +101,7 @@ a {
 }
 
 .page-header-logo {
-  float: left;
+  /*float: left;*/
 }
 .page-header-logo h1{
   width:587px;
