@@ -280,10 +280,10 @@ display: none;
   margin-right: 6px;
   position: relative;
 }
-.page-main-section-03-top-item img,.page-main-section-03-bottom-item img{
+#hover-img img{
   opacity: 0.8;
 }
-.page-main-section-03-top-item img:hover,.page-main-section-03-bottom-item img:hover{
+#hover-img img:hover,#hover-img img:hover{
   opacity: 1;
 }
 .page-main-section-03-top-item .content, .page-main-section-03-bottom-item .content {
@@ -421,7 +421,7 @@ display: none;
   width: 600px !important;
 }
 
-.page-main-section-04-left .search h1 {
+.page-main-section-04-left h1 {
   color: #075c9e;
   float: left;
   width: 140px;
@@ -507,7 +507,7 @@ display: none;
 
 .contantInfo {
   background-color: #02307b;
-  padding: 70px 0;
+  padding: 40px 0;
   color: #fff;
 /*  font-size: 12px;*/
 }
@@ -522,18 +522,23 @@ display: none;
 
 .contentInfo-content {
   width: 730px;
-  margin: -30px 30px 0;
+  margin: 0 30px;
+  /* font-size:12px; */
+  /* letter-spacing: 1px; */
+}
+.contentInfo-weixin,.contentInfo-logo{
+  margin-top:30px;
 }
 
 .contentInfo-content-nav {
   float: left;
-  width: 50%;
+  width: 45%;
   margin-right: 20px;
 }
 
 .contentInfo-content-introduce {
   float: right;
-  width: 45%;
+  width: 50%;
 }
 
 .contentInfo-content-introduce p {
@@ -554,6 +559,9 @@ display: none;
   float: left;
   padding: 0 25px;
   border-right: 1px solid #123d83;
+}
+.contentInfo-content-nav-item:first-child{
+/*  padding-left:0;*/
 }
 /*.contentInfo-content-nav-item:nth-child(1n){
   padding-left:;

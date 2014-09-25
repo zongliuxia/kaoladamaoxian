@@ -1,0 +1,204 @@
+h1,h3,h2{
+  margin:0;
+  font-weight: 100;
+}
+.page-slick-lunbo{
+  background-color:#3acef6;
+}
+.page-main-bgColor{
+  background-color:#fff;
+}
+.page-mian-title{
+  text-align:center;
+  padding:35px 0 0;
+}
+.page-mian-title h1{
+font-size:32px;
+color:#000;
+border-bottom:1px solid #e5e5e5;
+
+padding-bottom:10px;
+position:relative;
+}
+.page-mian-title h1:after{
+  content:"";
+  width:80px;
+  height:1px;
+  background-color:#000;
+  position:absolute;
+  top: 52px;
+  left: 537px;
+}
+.page-mian-title h3{
+  font-size: 16px;
+  color: #898989;
+  padding-top:10px;
+
+
+}
+.page-main-body{
+  padding:40px 20px 50px;
+}
+.about-brand-item{
+  float: left;
+  width:31.5%;
+
+  margin-right: 30px;
+}
+.about-brand-item:nth-child(3n){
+  margin-right:0;
+}
+.about-brand-item>h2,.about-staff h2{
+  float: left;
+  width:50px;
+  font-size: 20px;
+  color:#fff;
+  background-color: #0086d1;
+  padding: 10px;
+  margin-right: 1px;
+  text-align: center;
+}
+.about-brand-right{
+  float: left;
+  width:300px;
+}
+.about-brand-right h2{
+    margin-top: 10px;
+
+    font-size: 16px;
+}
+.about-brand-right p{
+    color: #898989;
+
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.about-staff-right{
+  float:right;
+  width: 1064px;
+}
+.about-staff{
+  margin:30px 0 40px;
+}
+.about-contact-item{
+  float:left;
+  margin-right: 82px;
+  width:300px;
+}
+.about-contact-item:nth-child(3n){
+  margin-right: 0;
+}
+.about-contact-item .title h1,.about-contact-content h1{
+  font-size: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.about-contact-item p{
+  font-size: 14px;
+}
+
+.about-contact-message{
+  width: 330px !important;
+}
+.about-contact-content{
+  margin-left:20px;
+}
+.about-contact-content h1{
+  margin-top: 10px;
+}
+.about-contact-content p{
+    line-height: 1.8em;
+
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.about-contact-contact h1 small,.about-contact-message h1 small{
+  font-size: 12px;
+padding-left:5px;
+}
+.about-contact-contact h1 small:after,.about-contact-message h1 small:after{
+  height:2px;
+  width:100px;
+  background-color:#000;
+  position:absolute;
+  content: "";
+  top: 36px;
+  left: 0px;
+}
+.about-contact-contact .title,.about-contact-message .title{
+  border-bottom:2px solid #e5e5e5;
+}
+.about-contact-message-body,.about-contact-contact-body{
+  margin-top:40px;
+}
+
+.phone-numble i{
+float:left;
+  background: url(../images/about/about_25.png) no-repeat center center;
+  width: 70px;
+  height: 58px;
+}
+.phone-numble span{
+/*  display: block;*/
+  font-size: 28px;
+float: left;
+margin: 21px 0 0 10px;
+}
+.contact-content p{
+margin:0 0 10px 0;
+}
+.contact-content{
+  margin:30px 0 50px;
+}
+.share-style-item{
+  float:left;
+  text-align:center;
+  margin-right: 25px;
+}
+.share-style-item i{
+  display: block;
+  width:49px;
+  height: 49px;
+}
+.contact-xinlang{
+  background: url(../images/about/about_32.png) no-repeat center center;
+}
+.contact-tengxun{
+  background: url(../images/about/about_31.png) no-repeat center center;
+}
+.contact-weixin{
+  background: url(../images/about/about_29.png) no-repeat center center;
+}
+.contact-QQ{
+  background: url(../images/about/about_37.png) no-repeat center center;
+}
+.about-contact-message-body textarea:focus,.about-contact-message-body input:focus,.about-contact-message-body button:focus{
+  outline: none;
+}
+.about-contact-message-body textarea,.about-contact-message-body input{
+  border:1px solid #e5e5e5;
+  text-indent: 1em;
+}
+.message-information{
+  margin:10px 0;
+}
+.message-information input{
+  width:160px;
+}
+.about-contact-message-body input{
+  height:45px;
+}
+.message-input input{
+width: 324px;
+}
+.message-buttom{
+  margin:10px 0 0;
+
+}
+.message-buttom button{
+  color:#fff;
+  font-size: 20px;
+  background-color:#0086d1;
+  padding: 10px 142px;
+  border:0;
+}
